@@ -33,5 +33,10 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-
 gem "webrick", "~> 1.7"
+
+# Used in _plugins/social_images.rb
+gem "chunky_png", "~> 1.4.0"
+gem 'rsvg2', '~> 4.1.7'
+gem "cairo", "~> 1.17.9"
+gem "rake", "~> 13.0.1"
