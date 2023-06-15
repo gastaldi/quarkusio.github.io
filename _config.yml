@@ -30,7 +30,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-archives
-
+  - jekyll-gensocial
 sass:
   style: compressed
 
@@ -178,5 +178,26 @@ jekyll-archives:
   permalinks:
     tag: '/blog/tag/:name/'
   
+
+############################################################
+
+# https://github.com/boyvanamstel/jekyll-gensocial
+jekyll-gensocial:
+  size:               # The size of the overall canvas
+    width: 600
+    height: 330
+  background:
+    path: "_assets/img/quarkus_card_blank.png"
+  text:
+    pointsize: 30    # Font size
+    fill: "#FFFFFF"   # Font color
+    font_path: "_assets/fonts/OpenSans-Regular.ttf"
+    rect: # Text will appear inside this frame
+      size:
+        width: 420
+        height: 250
+      origin:
+        x: 80
+        y: 130
 
 ############################################################
